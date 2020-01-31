@@ -1,0 +1,24 @@
+.cards {
+	padding: 0px 10px;
+	&_orange {
+		background-color: #f15711;
+	}
+	&_yellow {
+		background-color: #f0b920;
+	}
+	&_green {
+		background-color: #36b448;
+	}
+	&_blue {
+		background-color: #418bc8;
+	}
+	&_purp {
+		background-color: #a12b41;
+	}
+	&_pink {
+		background-color: #ff6f6f;
+	}
+	&_grey {
+		background-color: #396765;
+	}
+}

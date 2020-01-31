@@ -1,0 +1,23 @@
+.skills {
+	display: flex;
+	justify-content: space-between;
+	&__header {
+		color: $yellow;
+		text-transform: uppercase;
+	}
+	&__list {
+		padding-left: 28px;
+	}
+	&__item {
+		list-style-type: none;
+		position: relative;
+		&:before {
+			content: url(../icons/check.svg);
+			width: 20px;
+			display: block;
+			position: absolute;
+			left: -27px;
+			top: 3px;
+		}
+	}
+}

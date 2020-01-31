@@ -1,0 +1,13 @@
+@keyframes pulse {
+  from {
+    color: $yellow;
+  }
+  50% {
+    color: #ff7829;
+  }
+  to {
+  	color: $yellow;
+  }
+}
+
+

@@ -1,0 +1,21 @@
+.certificates {
+	background-color: $bg_grey;
+	padding: 40px 0;
+	&__img {
+		display: block;
+		margin: 0 auto;
+		margin-top: 35px;
+		width: 500px;
+		transition: 1s;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+	&__descr {
+		text-align: center;
+		color: #fff;
+		font-size: 20px;
+		font-weight: 300;
+		position: relative;
+	}
+}

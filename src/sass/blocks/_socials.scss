@@ -1,0 +1,11 @@
+.socials {
+	font-size: 23px;
+	&__icon {
+		padding-right: 10px;
+		color: #4c4f48;
+		&:hover {
+			color: #333230;
+			text-decoration: none;
+		}
+	}
+}
